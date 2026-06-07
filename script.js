@@ -1,6 +1,6 @@
 'use strict';
 
-// ── 問題プール（22問）──────────────────────────────────────
+// ── 問題プール（50問）──────────────────────────────────────
 const ALL_QUESTIONS = [
   {
     question: 'ビートルズが結成された都市はどこ？',
@@ -127,6 +127,150 @@ const ALL_QUESTIONS = [
     choices: ['スチュアート・サトクリフ', 'ピート・ベスト', 'ブライアン・ジョーンズ', 'ジョン・レノン'],
     correct: 2,
     explanation: 'ブライアン・ジョーンズはローリング・ストーンズのメンバーです。サトクリフとベストは初期メンバーでした。'
+  },
+  {
+    question: 'ビートルズが初来日した年は？',
+    choices: ['1964年', '1965年', '1966年', '1967年'],
+    correct: 2,
+    explanation: 'ビートルズは1966年6月、日本武道館で公演を行いました。'
+  },
+  {
+    question: 'ビートルズが日本武道館で行ったコンサートは何公演？',
+    choices: ['3公演', '4公演', '5公演', '6公演'],
+    correct: 2,
+    explanation: '1966年6月30日〜7月2日の3日間で計5公演行われました。'
+  },
+  {
+    question: '「In My Life」が収録されたアルバムは？',
+    choices: ['Help!', 'Rubber Soul', 'Revolver', 'Abbey Road'],
+    correct: 1,
+    explanation: '「In My Life」は1965年のアルバム「Rubber Soul」に収録されています。'
+  },
+  {
+    question: 'ビートルズのレコードレーベルは？',
+    choices: ['EMI', 'Parlophone', 'Columbia', 'Decca'],
+    correct: 1,
+    explanation: 'ビートルズはEMI傘下の「Parlophone（パーロフォン）」からレコードをリリースしていました。'
+  },
+  {
+    question: '「Eleanor Rigby」の主人公エレナー・リグビーは何をする人？',
+    choices: ['教師', '看護師', '教会の掃除をする孤独な女性', '修道女'],
+    correct: 2,
+    explanation: '教会で米粒を拾い集める孤独な女性として描かれ、孤独をテーマにした名曲です。'
+  },
+  {
+    question: '「Blackbird」を書いたのは主に誰？',
+    choices: ['ジョン・レノン', 'ジョージ・ハリスン', 'ポール・マッカートニー', 'リンゴ・スター'],
+    correct: 2,
+    explanation: 'ポール・マッカートニーが作曲。アメリカの公民権運動に影響を受けて書かれたとされています。'
+  },
+  {
+    question: '「Something」を作曲したのは誰？',
+    choices: ['ジョン・レノン', 'ポール・マッカートニー', 'ジョージ・ハリスン', 'リンゴ・スター'],
+    correct: 2,
+    explanation: 'ジョージ・ハリスン作曲。フランク・シナトラが「史上最高のラブソング」と評した曲です。'
+  },
+  {
+    question: 'ビートルズのアルバム「White Album」の正式タイトルは？',
+    choices: ['The White Album', 'The Beatles', 'White', 'Four Beatles'],
+    correct: 1,
+    explanation: '正式タイトルは「The Beatles」。真っ白なジャケットから「ホワイト・アルバム」と呼ばれています。'
+  },
+  {
+    question: '「Ob-La-Di, Ob-La-Da」はどのアルバムに収録されている？',
+    choices: ['Abbey Road', 'Let It Be', 'The Beatles（White Album）', 'Magical Mystery Tour'],
+    correct: 2,
+    explanation: '「The Beatles（ホワイト・アルバム）」（1968年）に収録されています。'
+  },
+  {
+    question: 'ビートルズの最初のナンバーワンヒット曲は？',
+    choices: ['Love Me Do', 'Please Please Me', 'From Me to You', 'She Loves You'],
+    correct: 1,
+    explanation: '「Please Please Me」が1963年に全英チャート1位を獲得しました。'
+  },
+  {
+    question: '「Lucy in the Sky with Diamonds」の頭文字を並べると何になる？',
+    choices: ['LSD', 'LST', 'LDT', 'LCD'],
+    correct: 0,
+    explanation: 'L・S・Dとなることから薬物を示唆すると話題になりましたが、ジョンは息子の絵からインスピレーションを得たと語っています。'
+  },
+  {
+    question: 'ポール・マッカートニーが弾く楽器として最も有名なのは？',
+    choices: ['ドラム', 'ギター', 'ベースギター', 'キーボード'],
+    correct: 2,
+    explanation: 'ポール・マッカートニーはバンドのベーシストとして活躍し、独創的なベースラインで知られています。'
+  },
+  {
+    question: 'ビートルズが設立したレコード会社・レーベルの名前は？',
+    choices: ['Apple Records', 'Banana Records', 'Cherry Records', 'Lemon Records'],
+    correct: 0,
+    explanation: '1968年にアップル・コアの一部門として「Apple Records」を設立しました。'
+  },
+  {
+    question: '「Here Comes the Sun」を作曲したのは？',
+    choices: ['ジョン・レノン', 'ポール・マッカートニー', 'ジョージ・ハリスン', 'リンゴ・スター'],
+    correct: 2,
+    explanation: 'ジョージ・ハリスンが作曲し、Abbey Roadに収録。春の到来を歌った明るい名曲です。'
+  },
+  {
+    question: 'ビートルズがインドで瞑想修行をした師匠は誰？',
+    choices: ['ダライ・ラマ', 'マハリシ・マヘーシュ・ヨーギー', 'オショ・ラジニーシュ', 'サイ・ババ'],
+    correct: 1,
+    explanation: '1968年にインドでマハリシ・マヘーシュ・ヨーギーのもとで超越瞑想を学びました。'
+  },
+  {
+    question: '「Let It Be」のアルバムで最後にリリースされたシングルは？',
+    choices: ['Let It Be', 'Get Back', 'The Long and Winding Road', 'Don\'t Let Me Down'],
+    correct: 2,
+    explanation: '「The Long and Winding Road」が1970年5月、ビートルズ最後のシングルとしてリリースされました。'
+  },
+  {
+    question: 'リンゴ・スターの本名は？',
+    choices: ['リチャード・スターキー', 'ロジャー・スターン', 'ロバート・スチュワート', 'ランドルフ・スタンリー'],
+    correct: 0,
+    explanation: 'リンゴ・スターの本名はリチャード・スターキー（Richard Starkey）です。'
+  },
+  {
+    question: '「Hey Jude」の「Jude」はもともと誰のことを指していた？',
+    choices: ['ポールの息子', 'ジョンの息子ジュリアン', 'ジョージの弟', 'マネージャーの子供'],
+    correct: 1,
+    explanation: 'ポールが、両親の離婚で傷ついたジョンの息子ジュリアンを励ますために書きました。'
+  },
+  {
+    question: 'ビートルズがアメリカで最初にリリースしたシングルは？',
+    choices: ['Love Me Do', 'Please Please Me', 'I Want to Hold Your Hand', 'She Loves You'],
+    correct: 2,
+    explanation: '「I Want to Hold Your Hand」が1963年末にアメリカでリリースされ、爆発的なヒットとなりました。'
+  },
+  {
+    question: '「Yellow Submarine」はどのアルバムに最初に収録された？',
+    choices: ['Help!', 'Revolver', 'Magical Mystery Tour', 'Sgt. Pepper\'s'],
+    correct: 1,
+    explanation: '1966年のアルバム「Revolver」に収録。リンゴ・スターがボーカルを担当しています。'
+  },
+  {
+    question: 'ジョン・レノンが1980年に亡くなった場所はどこ？',
+    choices: ['ロンドン', 'リバプール', 'ニューヨーク', 'ロサンゼルス'],
+    correct: 2,
+    explanation: '1980年12月8日、ニューヨーク・マンハッタンの自宅アパート前で銃撃され亡くなりました。'
+  },
+  {
+    question: '「Penny Lane」の「Penny Lane」とは何？',
+    choices: ['架空の街の名前', 'リバプールの実在する通り', 'ロンドンの公園', 'リンゴの生まれた村'],
+    correct: 1,
+    explanation: 'リバプールに実在する通りの名前で、ジョンとポールが幼少期によく訪れた場所です。'
+  },
+  {
+    question: 'ジョージ・ハリスンが亡くなった年は？',
+    choices: ['1999年', '2000年', '2001年', '2002年'],
+    correct: 2,
+    explanation: 'ジョージ・ハリスンは2001年11月29日、肺がんのため58歳で亡くなりました。'
+  },
+  {
+    question: 'ビートルズのコンサートツアーが最後に行われた年は？',
+    choices: ['1964年', '1965年', '1966年', '1967年'],
+    correct: 2,
+    explanation: '1966年のサンフランシスコ公演を最後に、ビートルズはコンサート活動を終了しました。'
   }
 ];
 
