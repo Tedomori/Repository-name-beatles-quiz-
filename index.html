@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ビートルズ クイズ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- スタート画面 -->
+    <div id="screen-start" class="screen active">
+      <div class="logo">🎸</div>
+      <h1>ビートルズ<br>クイズ</h1>
+      <p class="subtitle">全5問・4択形式<br>あなたはどこまで知ってる？</p>
+      <button id="btn-start" class="btn btn-primary">スタート</button>
+    </div>
+
+    <!-- 問題画面 -->
+    <div id="screen-quiz" class="screen">
+      <div class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <div class="question-counter">
+        <span id="question-number">1</span> / 5 問目
+      </div>
+      <div id="question-text" class="question-text"></div>
+      <div id="choices" class="choices"></div>
+      <div id="feedback" class="feedback hidden"></div>
+      <button id="btn-next" class="btn btn-primary hidden">次の問題へ</button>
+    </div>
+
+    <!-- 結果画面 -->
+    <div id="screen-result" class="screen">
+      <div id="result-icon" class="result-icon"></div>
+      <h2 id="result-title" class="result-title"></h2>
+      <div id="result-score" class="result-score"></div>
+      <p id="result-comment" class="result-comment"></p>
+      <div class="result-buttons">
+        <button id="btn-retry" class="btn btn-primary">もう一度挑戦</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
