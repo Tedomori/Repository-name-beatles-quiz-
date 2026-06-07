@@ -1,6 +1,6 @@
 'use strict';
 
-// ── 問題プール（12問）──────────────────────────────────────
+// ── 問題プール（22問）──────────────────────────────────────
 const ALL_QUESTIONS = [
   {
     question: 'ビートルズが結成された都市はどこ？',
@@ -73,6 +73,60 @@ const ALL_QUESTIONS = [
     choices: ['ジョン・レノン', 'ジョージ・ハリスン', 'リンゴ・スター', 'ポール・マッカートニー'],
     correct: 3,
     explanation: 'Yesterdayはポール・マッカートニーがほぼ単独で作詞・作曲した名曲です。'
+  },
+  {
+    question: 'ビートルズが初めてシングルをリリースした年は？',
+    choices: ['1960年', '1961年', '1962年', '1963年'],
+    correct: 2,
+    explanation: '1962年10月、「Love Me Do」でデビューしました。'
+  },
+  {
+    question: '「Come Together」が収録されたアルバムは？',
+    choices: ['Help!', 'Revolver', 'Abbey Road', 'Let It Be'],
+    correct: 2,
+    explanation: '「Come Together」は1969年のアルバム「Abbey Road」のA面1曲目に収録されています。'
+  },
+  {
+    question: 'ビートルズの中でギタリストとして知られるのは誰？',
+    choices: ['ジョン・レノン', 'ポール・マッカートニー', 'ジョージ・ハリスン', 'リンゴ・スター'],
+    correct: 2,
+    explanation: 'ジョージ・ハリスンがリードギタリストです。インド音楽にも影響を受けた演奏で知られています。'
+  },
+  {
+    question: '「Let It Be」の映画・ドキュメンタリーをリメイクした2021年公開の作品のタイトルは？',
+    choices: ['Get Back', 'Come Together', 'Eight Days a Week', 'Imagine'],
+    correct: 0,
+    explanation: '「Get Back」はピーター・ジャクソン監督が制作し、2021年にDisney+で公開されました。'
+  },
+  {
+    question: 'ビートルズが解散後、ジョン・レノンが1971年にリリースした代表曲は？',
+    choices: ['My Sweet Lord', 'Imagine', 'Band on the Run', 'Photograph'],
+    correct: 1,
+    explanation: '「Imagine」はジョン・レノンのソロ活動の代表曲で、世界平和を訴えた名曲です。'
+  },
+  {
+    question: '「A Hard Day\'s Night」は何の題名でもある？',
+    choices: ['ビートルズの映画', 'ジョンの自伝', 'ポールの詩集', 'リンゴの写真集'],
+    correct: 0,
+    explanation: '1964年公開のビートルズ主演映画のタイトルでもあり、同名のアルバムも発売されました。'
+  },
+  {
+    question: '「Strawberry Fields Forever」の「Strawberry Fields」とはもともと何？',
+    choices: ['イチゴ農場', '孤児院の庭', '公園の名前', 'リバプールの海岸'],
+    correct: 1,
+    explanation: 'リバプールにあった救世軍の孤児院「Strawberry Field」の庭で、ジョンが子供の頃に遊んだ場所です。'
+  },
+  {
+    question: 'ビートルズが最後に公の場で演奏したのはどこ？',
+    choices: ['武道館', 'ウェンブリースタジアム', 'アップル社屋上', 'BBCスタジオ'],
+    correct: 2,
+    explanation: '1969年1月30日、ロンドンのアップル・コア社屋上での「ルーフトップ・コンサート」が最後の公演です。'
+  },
+  {
+    question: '次のうちビートルズのメンバーでないのは誰？',
+    choices: ['スチュアート・サトクリフ', 'ピート・ベスト', 'ブライアン・ジョーンズ', 'ジョン・レノン'],
+    correct: 2,
+    explanation: 'ブライアン・ジョーンズはローリング・ストーンズのメンバーです。サトクリフとベストは初期メンバーでした。'
   }
 ];
 
